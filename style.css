@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding: 5px 25px;
+}
+
+.navbar-nav {
+    float: left;
+}
+
+.nav .navbar-nav a:hover {
+    color: black;
+}
+
+.img-responsive {
+    width: 50%;
+    padding-top: 10px;
+}
+
+.navbar-brand {
+    padding: 0px;
+    max-width: 42%;
+}
+
+.navbar-brand>img {
+    width: 70%;
+}
+
+
+@media screen and (min-width:768px) {
+    .navbar-brand {
+        max-width: 70%;
+    }
+}
