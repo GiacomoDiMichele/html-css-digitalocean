@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+.header-top {
+    display: none;
+}
+
 .navbar {
     padding: 5px 25px;
     border: none;
@@ -99,5 +103,30 @@
     .btn-blue:hover {
         background-color: blue;
         color: white;
+    }
+
+    .header-top {
+        display: block;
+        min-height: 50px;
+        border-top: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    h3 {
+        margin-top: 0;
+    }
+
+    .header-top h3 {
+        display: inline-block;
+        font-size: 9px;
+        margin-left: 25px;
+        border: 1px solid black;
+        padding: 2px 4px;
+        border-radius: 4px;
+        margin-top: 18px;
+    }
+
+    .header-top a {
+        text-decoration: none;
     }
 }
