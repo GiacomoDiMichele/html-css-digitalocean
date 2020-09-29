@@ -128,5 +128,24 @@
 
     .header-top a {
         text-decoration: none;
+        margin: 0px 10px;
+    }
+
+    .header-top-left {
+        width: 40%;
+        display: inline-block;
+    }
+
+    .header-top-right {
+        width: 59%;
+        display: inline-block;
+    }
+
+
+    .header-top-right ul,li {
+        display: inline-block;
+        float: right;
+        margin-bottom: -2px;
+
     }
 }
