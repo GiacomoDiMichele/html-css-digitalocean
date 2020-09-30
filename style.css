@@ -12,15 +12,12 @@
 .navbar {
     padding: 5px 25px;
     border: none;
+    margin-bottom: 0px;
 }
 
 .navbar-nav {
     float: left;
     display: none;
-}
-
-.nav .navbar-nav a:hover {
-    color: black;
 }
 
 .navbar-default {
@@ -45,6 +42,13 @@
 .navbar-brand>img {
     width: 183px;
     padding-top: 7px;
+}
+.navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: white;
 }
 
 .btn-default {
@@ -96,7 +100,7 @@
     }
 
     .btn-blue {
-        background-color: blue;
+        background-color: #006AFF;
         color: white;
     }
 
@@ -120,24 +124,33 @@
         display: inline-block;
         font-size: 9px;
         margin-left: 25px;
-        border: 1px solid black;
-        padding: 2px 4px;
+        padding: 4px 8px;
         border-radius: 4px;
         margin-top: 18px;
+        background-color: #00D7D2;
     }
 
     .header-top a {
         text-decoration: none;
         margin: 0px 10px;
+        font-weight: bolder;
+        color: grey;
+        font-size: 12px;
+    }
+
+    .header-top a:hover {
+        color: #3B8CFF;
     }
 
     .header-top-left {
-        width: 40%;
+        width: 47%;
         display: inline-block;
     }
 
     .header-top-right {
-        width: 59%;
+        margin-top: 15px;
+        float: right;
+        width: 23%;
         display: inline-block;
     }
 
@@ -147,5 +160,14 @@
         float: right;
         margin-bottom: -2px;
 
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color: #616d8a;
+        font-weight: bolder;
+    }
+
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #2680FF;
     }
 }
