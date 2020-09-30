@@ -51,7 +51,7 @@
     background-color: white;
 }
 
-.btn-default {
+.navbar-collapse .btn-default {
     display: none;
 }
 
@@ -67,6 +67,49 @@
 
 .jumbotron p {
     font-size: 22px;
+    width: 96%;
+    border-radius: 4px;
+}
+
+.registration {
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    width: 350px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.registration h3 {
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 13px;
+    color: #374A73;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding: 22px 12px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 17px 0px;
+    font-size: 1.2em;
+}
+
+.email {
+    width: 84%;
+}
+
+.btn-registration {
+    color: #0060FF;
+    border: 1px solid #0060FF;
+    margin-top: 50px;
+    padding: 13px 13px;
+    font-size: 1.2em;
+    font-weight: bolder;
 }
 
 
