@@ -85,12 +85,14 @@
     font-weight: bolder;
     padding-top: 50px;
     margin-top: 20%;
+        color: white;
 }
 
 .jumbotron p {
     font-size: 22px;
     width: 100%;
     border-radius: 4px;
+        color: white;
 }
 
 .registration {
@@ -152,15 +154,18 @@
     }
 
     .jumbotron-left h1 {
+        text-align: left;
         font-size: 4.0em;
         font-weight: bolder;
         padding: 20px 135px;
-        color: white;
+        margin-top: 40px;
+
     }
 
     .jumbotron p {
+        text-align: left;
         padding: 0px 140px;
-        color: white;
+
     }
 }
 
