@@ -55,6 +55,21 @@
     display: none;
 }
 
+.jumbotron-left {
+    text-align: center;
+}
+
+.jumbotron-left h1 {
+    font-size: 2.0em;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+.jumbotron p {
+    font-size: 22px;
+}
+
+
 @media screen and (min-width:768px) {
     .navbar-brand {
         max-width: 70%;
@@ -62,6 +77,12 @@
 
     .navbar-toggle {
         display: block;
+    }
+
+    .jumbotron-left h1 {
+        font-size: 4.0em;
+        font-weight: bolder;
+        padding: 20px 135px;
     }
 }
 
