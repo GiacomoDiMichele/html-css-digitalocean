@@ -170,8 +170,34 @@
     margin: 0px 0px;
     padding-top: 56px;
     padding-bottom: 25px;
+    font-weight: 700;
+    font-size: 1.1em;
+    color: #5B6992;
 }
 
+.images {
+    margin-bottom: 20px;
+}
+
+.bussiness-solutions a {
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: blue;
+    font-weight: 700;
+}
+.bussiness-solutions a:hover {
+    color: #4733FF;
+}
+
+.bussiness-solutions:after {
+    position: relative;
+    margin-left: 8px;
+    top: 1px;
+    content: '›';
+    font-size: 23px;
+    font-family: 'Sailec-Regular';
+}
 
 @media screen and (min-width:768px) {
     .navbar-brand {
