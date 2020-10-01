@@ -65,11 +65,10 @@
 
 .free-credit .btn {
     border: 0;
-    padding: 11px 16px;
+    padding: 13px 21px;
     white-space: normal;
-    max-width: 70%;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    width: 70%;
+    margin: 0% 15%;
     background-color: #031B74;
     color: white;
 }
@@ -108,14 +107,18 @@
         color: white;
 }
 
+.jumbotron-right {
+    width: 100%;
+}
+
 .registration {
     background-color: white;
     padding: 20px;
     border-radius: 6px;
     width: 350px;
+    margin-top: 50px;
     margin-left: 50%;
     transform: translateX(-50%);
-    margin-top: 50px;
 }
 
 .registration h3 {
@@ -167,7 +170,7 @@
     }
 
     .jumbotron-left h1 {
-        text-align: left;
+        text-align: center;
         font-size: 4.0em;
         font-weight: bolder;
         padding: 20px 135px;
@@ -176,7 +179,7 @@
     }
 
     .jumbotron p {
-        text-align: left;
+        text-align: center;
         padding: 0px 140px;
 
     }
@@ -321,5 +324,9 @@
 
     .jumbotron p {
         text-align: left;
+    }
+
+    .registration {
+
     }
 }
