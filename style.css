@@ -60,6 +60,8 @@
 }
 
 .jumbotron {
+    margin-bottom: 0px;
+    min-height: 787px;
     background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
 }
 
@@ -157,6 +159,17 @@
     padding: 13px 13px;
     font-size: 1.2em;
     font-weight: bolder;
+}
+
+.bussiness-solutions {
+    background-color: #F3F5F9;
+    text-align: center;
+}
+
+.bussiness-solutions h4 {
+    margin: 0px 0px;
+    padding-top: 56px;
+    padding-bottom: 25px;
 }
 
 
@@ -315,7 +328,7 @@
     }
 
     .jumbotron-left {
-        margin-left: 14%;
+        margin-left: 28%;
     }
 
     .jumbotron-left h1 {
