@@ -236,7 +236,6 @@
 .list-deploy li{
     list-style-type: none;
     display: inline-block;
-    float: left
 }
 
 .list-deploy a{
@@ -296,8 +295,23 @@
 
     }
 
+    .list-general {
+        margin-right: 0px;
+    }
+
 
 @media screen and (min-width:992px) {
+
+    .row::after {
+        display: inline-block;
+        content: normal;
+    }
+
+    .row:before {
+        display: inline-block;
+        content: normal;
+    }
+
 
     #row-right {
         width: 49%;
@@ -342,6 +356,11 @@
 
     #scale-section {
         border-left: 2px solid #E5E8ED;
+    }
+
+    .list-general {
+        margin-right: 0px;
+        min-height: 300px;
     }
 }
 
@@ -473,7 +492,13 @@
         text-align: left;
     }
 
-    .registration {
+    ..list-general {
+        margin-right: 10%;
+    }
+}
 
+@media screen and (min-width: 1300px){
+    .container {
+        width: 1300px;
     }
 }
