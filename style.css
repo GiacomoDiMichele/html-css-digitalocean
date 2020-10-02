@@ -65,6 +65,10 @@
     background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
 }
 
+.jumbo {
+ width: 100%;
+}
+
 .free-credit .btn {
     border: 0;
     padding: 13px 21px;
@@ -164,6 +168,7 @@
 .bussiness-solutions {
     background-color: #F3F5F9;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .bussiness-solutions h4 {
@@ -180,23 +185,62 @@
 }
 
 .bussiness-solutions a {
-    padding: 10px 0px;
+    padding: 10px 0px 30px 0px;
     text-decoration: none;
     font-size: 1.2em;
-    color: blue;
+    color: #4F92FD;
     font-weight: 700;
 }
 .bussiness-solutions a:hover {
     color: #4733FF;
 }
 
-.bussiness-solutions:after {
-    position: relative;
-    margin-left: 8px;
-    top: 1px;
-    content: '›';
-    font-size: 23px;
-    font-family: 'Sailec-Regular';
+.glyphicon {
+    font-size: 0.7em;
+    font-weight: 700;
+}
+
+.text-deploy {
+    text-align: center;
+    overflow-x: scroll;
+}
+
+.list-deploy {
+    width: 698px;
+}
+
+.list-deploy ul {
+    padding-bottom: 13px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.list-deploy li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.list-deploy a{
+    text-decoration: none;
+    padding: 12px 27px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #031B4E;
+    font-weight: 600;
+    border-bottom: 3px solid lightgrey;
+    margin-left: -5px;
+}
+
+.deploy-section {
+    border-bottom: 3px solid blue;
+    padding-bottom: 10px;
+}
+
+
+.list-deploy ul {
 }
 
 @media screen and (min-width:768px) {
@@ -296,7 +340,7 @@
         display: inline-block;
         font-size: 9px;
         margin-left: 25px;
-        padding: 4px 8px;
+        padding: 7px 9px 4px 8px;
         border-radius: 4px;
         margin-top: 18px;
         background-color: #00D7D2;
