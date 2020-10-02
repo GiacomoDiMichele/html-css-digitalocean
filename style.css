@@ -236,6 +236,7 @@
 .list-deploy li{
     list-style-type: none;
     display: inline-block;
+    float: left
 }
 
 .list-deploy a{
@@ -251,6 +252,10 @@
 .deploy-section {
     border-bottom: 3px solid #016AFF;
     padding-bottom: 13px;
+}
+
+.deploy-section a {
+    padding-bottom: 10px;
 }
 
 #scale-section {
@@ -291,6 +296,7 @@
 
     }
 
+
 @media screen and (min-width:992px) {
 
     #row-right {
@@ -326,6 +332,7 @@
 
     .list-deploy li {
         padding: 15px 0px;
+        float: left;
     }
 
     .deploy-section {
