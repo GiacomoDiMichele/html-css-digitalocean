@@ -205,6 +205,20 @@
     overflow-x: scroll;
 }
 
+.text-deploy h2 {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    font-size: 3.0em;
+    color: #031B4E;
+    font-weight: 600;
+}
+
+.text-deploy p {
+    font-size: 20px;
+    color: #5B6987;
+    padding-bottom: 70px;
+}
+
 .list-deploy {
     width: 698px;
 }
