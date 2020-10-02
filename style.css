@@ -210,6 +210,7 @@
 }
 
 .list-deploy ul {
+    display: inline-block;
     padding-bottom: 13px;
     margin-block-start: 0px;
     margin-block-end: 0px;
@@ -230,18 +231,20 @@
     text-decoration: none;
     color: #031B4E;
     font-weight: 600;
-    border-bottom: 3px solid lightgrey;
     margin-left: -5px;
 }
 
 .deploy-section {
-    border-bottom: 3px solid blue;
-    padding-bottom: 10px;
+    border-bottom: 3px solid #016AFF;
+    padding-bottom: 13px;
+}
+
+#scale-section {
+    border-bottom: 3px solid #E5E8ED;
+    margin-left: -5px;
 }
 
 
-.list-deploy ul {
-}
 
 @media screen and (min-width:768px) {
     .navbar-brand {
@@ -266,7 +269,6 @@
         padding: 0px 140px;
 
     }
-}
 
 @media screen and (min-width:992px) {
 
@@ -278,6 +280,40 @@
     #row-left {
         width: 49%;
         display: inline-block;
+    }
+
+    .deploy-section,#scale-section{
+        border-bottom: 0px;
+    }
+
+    .list-deploy ul {
+        padding-bottom: 0px;
+    }
+
+    .deploy-section {
+        padding-bottom: 0px;
+    }
+
+
+    .text-deploy {
+        overflow: hidden;
+    }
+
+    .list-deploy {
+        text-align: left;
+    }
+
+    .list-deploy li {
+        padding: 15px 0px;
+    }
+
+    .deploy-section {
+        border-left: 2px solid #016AFF;
+        margin-left: -5px;
+    }
+
+    #scale-section {
+        border-left: 2px solid #E5E8ED;
     }
 }
 
