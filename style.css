@@ -328,6 +328,7 @@
 #circle-blue {
     background-color: blue;
 }
+
 .bussiness-grid {
     text-align: center;
 }
@@ -339,6 +340,28 @@
         padding-bottom: 20px;
         font-weight: 700;
 }
+
+.bussiness-grid h5 {
+    color: #031b4e;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-bussiness-grid img {
+    padding: 20px 0px;
+}
+
+.text-bussiness-grid a {
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: 600;
+    color: #0069FF;
+}
+
+.text-bussiness-grid a:hover {
+    color: #163DFF;
+}
+
 
 @media screen and (min-width:768px) {
     .navbar-brand {
@@ -574,6 +597,13 @@
 
     ..list-general {
         margin-right: 10%;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    .text-bussiness-grid {
+        text-align: left;
     }
 }
 
