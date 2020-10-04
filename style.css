@@ -428,6 +428,24 @@
 
 .development-team {
     background-color: #F3F5F9;
+    text-align: center;
+}
+
+.development-team a {
+    text-decoration: none;
+    color: #0069ff;
+}
+
+.development-team a:hover {
+    color:  #031b4e;
+}
+
+.development-team h2 {
+    color: #031b4e;
+    font-size: 36px;
+    line-height: 110%;
+    font-weight: 600;
+    padding-top: 50px;
 }
 
 .card {
@@ -436,6 +454,10 @@
     border-radius: 8px;
     padding: 40px 50px;
     display: inline-block;
+}
+
+.card img {
+    width: 60%;
 }
 
 .card-development-team {
@@ -447,6 +469,18 @@
     color: #3F5279;
 }
 
+.card-body p {
+    font-size: 13px;
+    color: #5b6987;
+}
+
+.card-body h6 {
+    color: #5b6987;
+    font-size: 16px;
+    padding-top: 10px;
+    margin: 0px;
+}
+
 #bold-p {
     font-size: 24px;
     line-height: 150%;
@@ -455,6 +489,11 @@
 
 .card-body {
     text-align: center;
+}
+
+.second-circles {
+    margin-left: 10%;
+    padding-top: 25px;
 }
 
 @media screen and (min-width:768px) {
@@ -571,6 +610,10 @@
 
     .list-servers li {
         margin: 0px 60px;
+    }
+
+    .card img {
+        width: 30%;
     }
 }
 
