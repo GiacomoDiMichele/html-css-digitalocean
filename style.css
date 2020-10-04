@@ -191,6 +191,7 @@
     color: #4F92FD;
     font-weight: 700;
 }
+
 .bussiness-solutions a:hover {
     color: #4733FF;
 }
@@ -202,7 +203,6 @@
 
 .text-deploy {
     text-align: center;
-    overflow-x: scroll;
 }
 
 .text-deploy h2 {
@@ -217,10 +217,6 @@
     font-size: 20px;
     color: #5B6987;
     padding-bottom: 70px;
-}
-
-.list-deploy {
-    width: 698px;
 }
 
 .list-deploy ul {
@@ -246,6 +242,9 @@
     color: #031B4E;
     font-weight: 600;
     margin-left: -5px;
+}
+.list-general {
+    overflow-x: scroll;
 }
 
 .deploy-section {
@@ -362,6 +361,67 @@
     color: #163DFF;
 }
 
+.data-centers {
+    background-image: url(https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg);
+    background-color: #0F2656;
+    text-align: center;
+}
+
+.padding-data-centers {
+    padding: 70px 0px;
+}
+
+.data-centers h3 {
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+}
+
+#p-title {
+    font-size: 20px;
+    color: white;
+    padding-bottom: 70px;
+}
+
+
+.list-servers h6,p,a {
+    display: inline-block;
+    padding: 15px 0px;
+}
+
+.list-servers li {
+    list-style-type: none;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.list-servers h6 {
+    text-align: left;
+    width: 70px;
+    padding: 15px 0px;
+    color: white;
+    font-weight: 600;
+}
+
+.list-servers p {
+    text-align: left;
+    width: 167px;
+    color: #72809C;
+    font-weight: 600;
+}
+
+.list-servers a {
+    text-align: left;
+    text-decoration: none;
+    width: 90px;
+    font-weight: 600;
+    color: #45D4FF;
+}
+
+.list-servers a:hover {
+    color: #163DFF;
+}
+
 
 @media screen and (min-width:768px) {
     .navbar-brand {
@@ -390,6 +450,11 @@
     .list-general {
         margin-right: 0px;
     }
+
+    .list-servers li {
+        margin-left: 0 160px;
+    }
+
 
 
 @media screen and (min-width:992px) {
@@ -464,6 +529,14 @@
         font-size: 1.6em;
         display: inline-block;
 
+    }
+
+    .list-general {
+        overflow-x: hidden;
+    }
+
+    .list-servers li {
+        margin: 0px 60px;
     }
 }
 
@@ -557,7 +630,7 @@
     }
 
 
-    .header-top-right ul,li {
+    .header-top-right ul, .header-top-right li {
         display: inline-block;
         float: right;
         margin-bottom: -2px;
@@ -610,5 +683,9 @@
 @media screen and (min-width: 1300px){
     .container {
         width: 1300px;
+    }
+
+    .list-servers li {
+        margin: 0px 140px;
     }
 }
