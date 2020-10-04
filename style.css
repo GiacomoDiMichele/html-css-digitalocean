@@ -461,7 +461,7 @@
 }
 
 .card-development-team {
-    margin-left: 10%;
+    margin-left: 0px;
 }
 
 .card-development-team i {
@@ -492,7 +492,6 @@
 }
 
 .second-circles {
-    margin-left: 10%;
     padding-top: 25px;
 }
 
