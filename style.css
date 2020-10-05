@@ -532,6 +532,34 @@
     color: #0069ff;
 }
 
+footer {
+    background-color: #010E28;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer h6 {
+    font-size: 16px;
+    color: white;
+}
+
+.footer-top {
+    min-height: 660px;
+    border-bottom: 1px solid lightgrey;
+}
+}
+.footer-top a {
+    text-decoration: none;
+    color: hsla(0,0%,100%,0.5);
+    padding: 5px;
+}
+
+.footer-top a:hover {
+    color: white;
+}
+
 @media screen and (min-width:768px) {
     .navbar-brand {
         max-width: 70%;
