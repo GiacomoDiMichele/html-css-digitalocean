@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+
+/*INIZIO HEADER*/
 .header-top {
     display: none;
 }
@@ -59,6 +62,9 @@
     display: none;
 }
 
+
+
+/*INIZIO JUMBOTRON*/
 .jumbotron {
     margin-bottom: 0px;
     min-height: 787px;
@@ -165,6 +171,9 @@
     font-weight: bolder;
 }
 
+
+
+/*INIZIO BUSSINESS SOLUTIONS*/
 .bussiness-solutions {
     background-color: #F3F5F9;
     text-align: center;
@@ -269,6 +278,9 @@
     font-size: 16px;
 }
 
+
+
+/*INIZIO DESIGNED-DEVELOPERS*/
 .designed-developers {
     background-color: #F3F5F9;
     text-align: center;
@@ -362,6 +374,9 @@
     color: #163DFF;
 }
 
+
+
+/*INIZIO SEZIONE DATA-CENTERS*/
 .data-centers {
     background-image: url(https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg);
     background-color: #0F2656;
@@ -383,7 +398,6 @@
     color: white;
     padding-bottom: 70px;
 }
-
 
 .list-servers h6,p,a {
     display: inline-block;
@@ -426,6 +440,8 @@
     color: #163DFF;
 }
 
+
+/*INIZIO SEZIONE DEVELOPMENT TEAM*/
 .development-team {
     background-color: #F3F5F9;
     text-align: center;
@@ -495,12 +511,14 @@
     padding-top: 25px;
 }
 
+
+
+/*INIZIO SEZIONE GET STARTED*/
 .get-started {
     min-height: 130px;
     text-align: center;
     background-image: url(https://prismic-io.s3.amazonaws.com/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg);
 }
-
 
 .content-get-started {
     padding: 50px 0px;
@@ -531,7 +549,12 @@
     background-color: #CBD4E4;
     color: #0069ff;
 }
+/*FINE MAIN*/
 
+
+
+
+/*INIZIO FOOTER*/
 footer {
     background-color: #010E28;
 }
@@ -548,7 +571,6 @@ footer h6 {
 
 .footer-top {
     min-height: 447px;
-    border-bottom: 1px solid lightgrey;
 }
 
 .footer-top a {
@@ -584,7 +606,11 @@ footer h6 {
 .bottom-footer-right i {
     color: hsla(0,0%,100%,0.5);
 }
+/*FINE FOOTER*/
 
+
+
+/*INIZIO MEDIAQUERY*/
 @media screen and (min-width:768px) {
     .navbar-brand {
         max-width: 70%;
@@ -853,7 +879,7 @@ footer h6 {
         text-align: left;
     }
 
-    ..list-general {
+    .list-general {
         margin-right: 10%;
     }
 
@@ -863,6 +889,9 @@ footer h6 {
     .text-bussiness-grid {
         text-align: left;
     }
+
+    .footer-top {
+        border-bottom: 1px solid lightgrey;
 }
 
 @media screen and (min-width: 1300px){
