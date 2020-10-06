@@ -878,11 +878,6 @@ footer h6 {
     .jumbotron p {
         text-align: left;
     }
-
-    .list-general {
-        margin-right: 10%;
-    }
-
 }
 
 @media screen and (min-width: 1200px){
